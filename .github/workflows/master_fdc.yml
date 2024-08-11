@@ -59,4 +59,4 @@ jobs:
           app-name: 'FDC'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3E36D3D3434D4715BA9261890374D767 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ED134C54E57E43E0A1095D0E457265DE }}
