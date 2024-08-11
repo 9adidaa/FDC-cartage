@@ -28,14 +28,12 @@ jobs:
 
     - name: Build Front-End
       working-directory: ./client
-      env:
-        NODE_OPTIONS: "--openssl-legacy-provider"
-      run: npm run build
+      run: npm run build  # or 'npm run generate' for static site
 
     - name: Move Front-End Build to Server
       run: |
         rm -rf ./server/public
-        mv ./client/dist ./server/public
+        mv ./client/.nuxt ./server/public  # Change to './client/dist' if using 'generate'
 
     - name: Deploy to Azure Web App (Back-End)
       uses: azure/webapps-deploy@v2
