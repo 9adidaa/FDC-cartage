@@ -7,9 +7,9 @@
     "node": "16.13.2"
   },
   "scripts": {
-    "start": "export NODE_ENV=production && node src/index.js",  // Start the server in production mode
-    "dev": "export NODE_ENV=development && nodemon src/index.js",  // Start the server in development mode with nodemon
-    "test": "echo \"Error: no test specified\" && exit 1"  // Placeholder for test script
+    "start": "export NODE_ENV=production && node src/index.js", 
+    "dev": "export NODE_ENV=development && nodemon src/index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Seif Gharres",
   "license": "ISC",
