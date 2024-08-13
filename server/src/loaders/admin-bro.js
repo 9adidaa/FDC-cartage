@@ -34,7 +34,7 @@ module.exports = async (expressApp) => {
     adminBro,
     {
       authenticate: authenticateAdmin,
-      cookiePassword: SECRET_COOKIE_CODE,
+      cookiePassword: '13e8e39f043c9068064aa9317f830322ca7500be718dd5b9b90fbef6507dee78',
     },
     null,
     {
