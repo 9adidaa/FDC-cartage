@@ -12,13 +12,11 @@
   "dependencies": {
     "@nuxtjs/auth-next": "^5.0.0-1640716105.da0587d",
     "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/recaptcha": "^1.0.4",
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
     "nuxt-lazy-load": "^1.2.9",
     "sanitize-html": "^2.6.1",
-    "vue-recaptcha-v3": "^1.9.0",
     "vuelidate": "^0.7.7"
   },
   "devDependencies": {
