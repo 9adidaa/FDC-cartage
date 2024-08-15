@@ -28,8 +28,6 @@ jobs:
 
     - name: Build Front-End
       working-directory: ./client
-      env:
-        NODE_OPTIONS: "--openssl-legacy-provider"
       run: npm run build
 
     - name: Move Front-End Build to Server
