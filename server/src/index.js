@@ -12,7 +12,11 @@ async function startServer() {
   await loadMongoose();
 
   //   await createClientsForTesting();
-
+  //testing server
+  app.get('/hello-world', (req, res) => {
+    res.send('<h1> Hello, World! </h1>');
+  });
+  //testing server
   loadExpress(app);
   await loadAdminBro(app);
   app.listen(PORT, handleAppListenCallback);
