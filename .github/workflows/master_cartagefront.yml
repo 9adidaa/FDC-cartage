@@ -12,6 +12,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write  # Grant permission to use id-token
+      contents: read   # Ensure read access to repository contents (required for checkout)
 
     steps:
       - uses: actions/checkout@v2
