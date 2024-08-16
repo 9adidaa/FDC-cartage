@@ -15,7 +15,7 @@
     "@nuxtjs/recaptcha": "^1.1.2",
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
+    "nuxt": "^2.18.1",
     "nuxt-lazy-load": "^1.2.9",
     "sanitize-html": "^2.6.1",
     "vuelidate": "^0.7.7"
