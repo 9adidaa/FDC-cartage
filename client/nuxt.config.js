@@ -146,7 +146,7 @@ export default {
     [
       "@nuxtjs/recaptcha",
       {
-        siteKey: GOOGLE_RECAPTCHA_SITE_KEY,
+        siteKey: "6Lf7FSgqAAAAAD3cJsnWexJBrj5IAlWHcJB3zIpn",
         version: 3,
       },
     ],
