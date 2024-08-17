@@ -7,7 +7,7 @@ module.exports = {
   SECRET_COOKIE_CODE: process.env.SECRET_COOKIE_CODE,
   ADMIN_PANEL_PATH: process.env.ADMIN_PANEL_PATH || "/admin",
   MONGO_URI:
-    process.env.MONGO_URI || "mongodb://127.0.0.1:27017/bossnet-db-dev",
+    process.env.MONGO_URI || "mongodb://bossnet-db-dev:mOxMxRvp9jK3KZ3R5ZRApC6wQmGTFfxc4P1vvcfSsI71nb4ueh79or6uTLSTUx0ELHOXMqleCFVXACDb4YqkUw==@bossnet-db-dev.mongo.cosmos.azure.com:10255/bossnet-db-dev?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@bossnet-db-dev@",
   PORT: process.env.PORT || "4000",
   CLIENT_ENDPOINTS: process.env.CLIENT_ENDPOINTS || "https://cartagefront-gnf7ezhzaxb5gmeq.eastus-01.azurewebsites.net",
   HOST_NAME: process.env.HOST_NAME || "https://cartagefront-gnf7ezhzaxb5gmeq.eastus-01.azurewebsites.net",
