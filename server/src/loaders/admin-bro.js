@@ -40,7 +40,13 @@ module.exports = async (expressApp) => {
     {
       cookie: { maxAge: 1000 * convertDurationToSeconds("1day") },
       store: new RedisStore({
-        client: redis.createClient(),
+        client:redis.createClient({
+          url: `rediss://${process.env.REDIS_HOST || 'cartage-redis.redis.cache.windows.net'}:${process.env.REDIS_PORT || 6380}`,
+          password: process.env.REDIS_PASSWORD || 'e2dCGYBWo4U6t9lG9WiIe6HwsktpYStaDAzCaHkPPCs=',
+          socket: {
+              tls: true,          // Enable SSLrejectUnauthorized: false// Adjust as needed
+          }
+      }),
       }),
       resave: true,
       saveUninitialized: true,
