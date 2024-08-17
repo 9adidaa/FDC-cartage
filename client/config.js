@@ -1,9 +1,9 @@
 require("dotenv").config({ path: `.env.${process.env.NODE_ENV}` });
 export const API_ENDPOINT =
-  process.env.API_ENDPOINT || "http://4.233.208.161:4000/api/v1";
+  process.env.API_ENDPOINT || "https://cartageback-bcc7g6gpb8gzaqh6.italynorth-01.azurewebsites.net/api/v1";
 
 export const MEDIA_PROVIDER_URL =
-  process.env.MEDIA_PROVIDER_URL || "http://4.233.208.161:4000";
+  process.env.MEDIA_PROVIDER_URL || "https://cartageback-bcc7g6gpb8gzaqh6.italynorth-01.azurewebsites.net";
 
 export const GOOGLE_RECAPTCHA_SITE_KEY = process.env.GOOGLE_RECAPTCHA_SITE_KEY;
 
