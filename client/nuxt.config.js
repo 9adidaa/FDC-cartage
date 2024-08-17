@@ -146,7 +146,7 @@ export default {
     [
       "@nuxtjs/recaptcha",
       {
-        siteKey: "6Lf7FSgqAAAAAD3cJsnWexJBrj5IAlWHcJB3zIpn",
+        siteKey: "6LfRpigqAAAAAJFj0lQBghw8-AIi9EycgpJ6AZmr",
         version: 3,
       },
     ],
@@ -193,6 +193,7 @@ export default {
   },
   server: {
     port: PORT,
+    host: '0.0.0.0',
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
